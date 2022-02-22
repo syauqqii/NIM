@@ -31,12 +31,17 @@ public class Main{
             
             // .. maka akan di tambah 10
             dua_digit_nomor_belakang_nim = dua_digit_nomor_belakang_nim + 10;
+            
+            // Untuk cek apakah benar ini ambil 2 digit dari angka belakang NIM (boleh dihapus)
+            // tapi setelah perubahan, jika 2 digit tersebut < 10 (boleh dihapus)
+            // Tampilkan 2 digit angka setelah di ubah
+            System.out.println("Dua digit : " + dua_digit_nomor_belakang_nim + " (setelah di ubah, + 10)");
+        } else {
+            // Untuk cek apakah benar ini ambil 2 digit dari angka belakang NIM (boleh dihapus)
+            // tapi setelah perubahan, jika 2 digit tersebut < 10 (boleh dihapus)
+            // Tampilkan 2 digit angka setelah di ubah
+            System.out.println("Dua digit : " + dua_digit_nomor_belakang_nim);
         }
-        
-        // Untuk cek apakah benar ini ambil 2 digit dari angka belakang NIM (boleh dihapus)
-        // tapi setelah perubahan, jika 2 digit tersebut < 10 (boleh dihapus)
-        // Tampilkan 2 digit angka setelah di ubah
-        System.out.println("Dua digit : " + dua_digit_nomor_belakang_nim + " (setelah di ubah, + 10)");
         
         // Tampilkan "OUTPUT : " di konsol
         System.out.print("OUTPUT   : ");
