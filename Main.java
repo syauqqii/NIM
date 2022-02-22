@@ -3,7 +3,7 @@ import java.util.Scanner;
 // Nama Class harus sama seperti nama file.
 public class Main{
     // Buat function main()
-    public static void main(){
+    public static void main(String[] args){
         // [tipe data long] Buat variabel nim_mahasiswa : untuk menampung input nim_mahasiswa
         // [tipe data long] Buat variabel dua_digit_nomor_belakang_nim : untuk menampung 2 digit belakang nomor nim_mahasiswa
         long nim_mahasiswa, dua_digit_nomor_belakang_nim;
